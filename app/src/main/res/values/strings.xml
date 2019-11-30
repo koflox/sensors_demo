@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SensorsDemo</string>
+    <string name="tab_motion_sensors">Motion</string>
+    <string name="tab_position_sensors">Position</string>
+    <string name="tab_environmental_sensors">Environmental</string>
+    <string name="sensor_name">Sensor name/type</string>
+    <string name="is_available">Is available</string>
+    <string name="sensor_values">Values</string>
+</resources>
