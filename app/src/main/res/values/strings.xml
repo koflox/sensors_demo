@@ -6,4 +6,5 @@
     <string name="sensor_name">Sensor name/type</string>
     <string name="is_available">Is available</string>
     <string name="sensor_values">Values</string>
+    <string name="text_track_rotation">Start/stop track rotation</string>
 </resources>
