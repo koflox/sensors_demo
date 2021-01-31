@@ -48,9 +48,7 @@ class SensorsActivity : AppCompatActivity(), SensorEventListener {
         sensorManager.unregisterListener(this@SensorsActivity)
     }
 
-    override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
-
-    }
+    override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) = Unit
 
     override fun onSensorChanged(event: SensorEvent?) {
         sensorsViewModel.onSensorChanged(event)
